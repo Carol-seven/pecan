@@ -20,7 +20,7 @@ A numeric vector with the measured values.
 }
 \description{
 Compute the diversity/diversification and ubiquity
-\insertCite{hidalgo2009dynamics}{ProductSpace} based on the RCA values.
+\insertCite{hidalgo2009dynamics}{pecan} based on the RCA values.
 }
 \references{
 \insertAllCited{}

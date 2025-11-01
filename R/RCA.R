@@ -3,29 +3,30 @@
 #'
 #' @description
 #' Compute the revealed comparative advantage (RCA) index
-#' \insertCite{balassa1965trade}{ProductSpace} for a given dataset.
+#' \insertCite{balassa1965trade}{pecan} for a given dataset.
 #'
 #' @param data A data frame or matrix containing the data.
 #' \itemize{
-#' \item If a data frame, it should have columns representing economies, products, and
-#' export values.
-#' \item If a matrix, it should be an economy-by-product matrix with export values.
+#' \item If a data frame, it should have columns representing economies,
+#' products, and export values.
+#' \item If a matrix, it should be an economy-by-product matrix with export
+#' values.
 #' }
 #'
-#' @param econ A character string (default = "economy") specifying the column name for
-#' economies when \code{data} is a data frame.
+#' @param econ A character string (default = "economy") specifying the column
+#' name for economies when \code{data} is a data frame.
 #'
-#' @param prod A character string (default = "product") specifying the column name for
-#' products when \code{data} is a data frame.
+#' @param prod A character string (default = "product") specifying the column
+#' name for products when \code{data} is a data frame.
 #'
-#' @param exp A character string (default = "export") specifying the column name for
-#' export values when \code{data} is a data frame.
+#' @param exp A character string (default = "export") specifying the column name
+#' for export values when \code{data} is a data frame.
 #'
-#' @param binary A boolean (default = TRUE) specifying whether to return binary RCA values
-#' (1 if RCA >= threshold, 0 otherwise).
+#' @param binary A boolean (default = TRUE) specifying whether to return binary
+#' RCA values (1 if RCA >= threshold, 0 otherwise).
 #'
-#' @param threshold A numeric value (default = 1) specifying the threshold for binary RCA
-#' values.
+#' @param threshold A numeric value (default = 1) specifying the threshold for
+#' binary RCA values.
 #'
 #' @import dplyr
 #' @import tidyr

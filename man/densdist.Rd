@@ -13,7 +13,8 @@ densdist(RCAmat, PROXmat, measure = c("density", "distance"))
 
 \item{measure}{A character string specifying the measure to compute:
 \enumerate{
-\item "density": the new product’s proximity to the economy's current export basket.
+\item "density": the new product’s proximity to the economy's current export
+basket.
 \item "distance": the economy's ability to enter a specific product.
 }}
 }
@@ -21,7 +22,7 @@ densdist(RCAmat, PROXmat, measure = c("density", "distance"))
 A economy-by-product matrix with the measured values.
 }
 \description{
-Compute the density and distance \insertCite{hausmann2006structural}{ProductSpace}
+Compute the density and distance \insertCite{hausmann2006structural}{pecan}
 based on the RCA and proximity values.
 }
 \references{

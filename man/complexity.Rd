@@ -9,26 +9,27 @@ complexity(RCAmat, method = c("eigen", "fc", "mr"), niter = 20, gamma = 1)
 \arguments{
 \item{RCAmat}{An economy-by-product matrix with the RCA values.}
 
-\item{method}{A character string specifying the method to calculate: \itemize{
-\item "eigen": the eigenvector solution \insertCite{hausmann2014atlas}{ProductSpace}.
+\item{method}{A character string specifying the method to calculate:
+\itemize{
+\item "eigen": the eigenvector solution \insertCite{hausmann2014atlas}{pecan}.
 \item "fc": fitness-complexity method
-\insertCite{tacchella2012new,pugliese2016convergence}{ProductSpace}.
+\insertCite{tacchella2012new,pugliese2016convergence}{pecan}.
 \item "mr": method of reflections
-\insertCite{hidalgo2009building,caldarelli2012network}{ProductSpace}.
+\insertCite{hidalgo2009building,caldarelli2012network}{pecan}.
 }}
 
-\item{niter}{An integer (default = 20) specifying the number of iterations for
-\code{method = "fc"} and \code{method = "mr"}.}
+\item{niter}{An integer (default = 20) specifying the number of iterations
+for \code{method = "fc"} and \code{method = "mr"}.}
 
-\item{gamma}{A numeric value (default = 1) specifying the tuning parameter for
-\code{method = "fc"}.}
+\item{gamma}{A numeric value (default = 1) specifying the tuning parameter
+for \code{method = "fc"}.}
 }
 \value{
 A list containing ECI and PCI.
 }
 \description{
-Compute the economic complexity index (ECI) and the product complexity index (PCI)
-based on the RCA values.
+Compute the economic complexity index (ECI) and the product complexity index
+(PCI) based on the RCA values.
 }
 \references{
 \insertAllCited{}

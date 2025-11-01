@@ -2,24 +2,25 @@
 #' Complexity Index
 #'
 #' @description
-#' Compute the economic complexity index (ECI) and the product complexity index (PCI)
-#' based on the RCA values.
+#' Compute the economic complexity index (ECI) and the product complexity index
+#' (PCI) based on the RCA values.
 #'
 #' @param RCAmat An economy-by-product matrix with the RCA values.
 #'
-#' @param method A character string specifying the method to calculate: \itemize{
-#' \item "eigen": the eigenvector solution \insertCite{hausmann2014atlas}{ProductSpace}.
+#' @param method A character string specifying the method to calculate:
+#' \itemize{
+#' \item "eigen": the eigenvector solution \insertCite{hausmann2014atlas}{pecan}.
 #' \item "fc": fitness-complexity method
-#' \insertCite{tacchella2012new,pugliese2016convergence}{ProductSpace}.
+#' \insertCite{tacchella2012new,pugliese2016convergence}{pecan}.
 #' \item "mr": method of reflections
-#' \insertCite{hidalgo2009building,caldarelli2012network}{ProductSpace}.
+#' \insertCite{hidalgo2009building,caldarelli2012network}{pecan}.
 #' }
 #'
-#' @param niter An integer (default = 20) specifying the number of iterations for
-#' \code{method = "fc"} and \code{method = "mr"}.
+#' @param niter An integer (default = 20) specifying the number of iterations
+#' for \code{method = "fc"} and \code{method = "mr"}.
 #'
-#' @param gamma A numeric value (default = 1) specifying the tuning parameter for
-#' \code{method = "fc"}.
+#' @param gamma A numeric value (default = 1) specifying the tuning parameter
+#' for \code{method = "fc"}.
 #'
 #' @importFrom stats cor setNames
 #' @importFrom Rdpack reprompt
@@ -31,7 +32,8 @@
 #'
 #' @export
 
-complexity <- function(RCAmat, method = c("eigen", "fc", "mr"), niter = 20, gamma = 1) {
+complexity <- function(RCAmat, method = c("eigen", "fc", "mr"),
+                       niter = 20, gamma = 1) {
 
   if (!is.matrix(RCAmat)) {
     stop("'RCAmat' must be an economy-by-product matrix with the RCA values!")

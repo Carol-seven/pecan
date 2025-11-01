@@ -3,7 +3,7 @@
 #'
 #' @description
 #' Compute the diversity/diversification and ubiquity
-#' \insertCite{hidalgo2009dynamics}{ProductSpace} based on the RCA values.
+#' \insertCite{hidalgo2009dynamics}{pecan} based on the RCA values.
 #'
 #' @param RCAmat An economy-by-product matrix with the RCA values.
 #'

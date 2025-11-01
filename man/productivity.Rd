@@ -17,9 +17,10 @@ productivity(
 \arguments{
 \item{expData}{A data frame or matrix containing the export data.
 \itemize{
-\item If a data frame, it should have columns representing economies, products, and
-export values.
-\item If a matrix, it should be an economy-by-product matrix with export values.
+\item If a data frame, it should have columns representing economies,
+products, and export values.
+\item If a matrix, it should be an economy-by-product matrix with export
+values.
 }}
 
 \item{gdpData}{A data frame containing the GDP data.}
@@ -30,24 +31,24 @@ export values.
 \item "expy": the income/productivity level of a country's export basket.
 }}
 
-\item{econ}{A character string (default = "economy") specifying the column name for
-economies when \code{expData} is a data frame.}
+\item{econ}{A character string (default = "economy") specifying the column
+name for economies when \code{expData} is a data frame.}
 
-\item{prod}{A character string (default = "product") specifying the column name for
-products when \code{expData} is a data frame.}
+\item{prod}{A character string (default = "product") specifying the column
+name for products when \code{expData} is a data frame.}
 
-\item{exp}{A character string (default = "export") specifying the column name for
-export values when \code{expData} is a data frame.}
+\item{exp}{A character string (default = "export") specifying the column name
+for export values when \code{expData} is a data frame.}
 
-\item{gdp}{A character string (default = "GDP") specifying the column name for
-GDP values when \code{gdpData} is a data frame.}
+\item{gdp}{A character string (default = "GDP") specifying the column name
+for GDP values when \code{gdpData} is a data frame.}
 }
 \value{
 A numeric vector with the measured values.
 }
 \description{
-Compute the PRODY and EXPY \insertCite{hausmann2007you}{ProductSpace} based on export
-and gross domestic product (GDP) data.
+Compute the PRODY and EXPY \insertCite{hausmann2007you}{pecan} based on
+export and gross domestic product (GDP) data.
 }
 \references{
 \insertAllCited{}
