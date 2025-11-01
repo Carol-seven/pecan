@@ -1,19 +1,26 @@
+# pecan <img src="man/figure/logo.png" align="right" alt="" width="150">
 
-# ProductSpace <img src="man/figure/logo.png" align="right" alt="" width="150">
 
-<!-- badges: start -->
-[![R-CMD-check](https://github.com/Carol-seven/ProductSpace/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Carol-seven/ProductSpace/actions/workflows/R-CMD-check.yaml)
-<!-- badges: end -->
+## Portfolio for Economic Complexity Analysis and Navigation
 
-The goal of **ProductSpace** is to provide tools for the analysis and visualization of the
-product space.
+
+[![GitHub R package version](https://img.shields.io/github/r-package/v/Carol-seven/pecan?label=R%20in%20dev&color=green)](https://github.com/Carol-seven/pecan/blob/main/DESCRIPTION)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Carol-seven/pecan)](https://github.com/Carol-seven/pecan/commits/main)
+[![R-CMD-check](https://github.com/Carol-seven/pecan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Carol-seven/pecan/actions/workflows/R-CMD-check.yaml)
+[![GitHub License](https://img.shields.io/github/license/Carol-seven/pecan?color=blue)](https://github.com/Carol-seven/pecan/blob/main/LICENSE.md)
+
+
+The goal of **pecan** is to provide tools for economic complexity analysis and
+industrial upgrading navigation.
+
 
 ## Installation
 
-You can install the development version of **ProductSpace** from [GitHub](https://github.com/)
-with:
+You can install the development version of **pecan** from
+[GitHub](https://github.com/) with:
 
-``` r
+
+```
 # install.packages("devtools")
-devtools::install_github("Carol-seven/ProductSpace")
+devtools::install_github("Carol-seven/pecan")
 ```
