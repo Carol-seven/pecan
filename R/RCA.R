@@ -61,7 +61,7 @@ rca <- function(data, binary = TRUE, threshold = 1,
 
   if (is.data.frame(data)) {
     data <- data %>%
-      select(econ, prod, exp) %>%
+      select(all_of(c(econ, prod, exp))) %>%
       spread(prod, exp, fill = 0) %>%
       column_to_rownames(var = econ)
   }

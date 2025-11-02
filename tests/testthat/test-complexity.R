@@ -1,0 +1,10 @@
+test_that("complexity", {
+  load("expected/rca.RData")
+  test_eigen <- complexity(RCAmat = rca, method = "eigen")
+  test_fc <- complexity(RCAmat = rca, method = "fc", niter = 20, gamma = 1)
+  test_mr <- complexity(RCAmat = rca, method = "mr", niter = 20)
+  load("expected/complexity.RData")
+  expect_equal(test_eigen, complexity_eigen)
+  expect_equal(test_fc, complexity_fc)
+  expect_equal(test_mr, complexity_mr)
+})

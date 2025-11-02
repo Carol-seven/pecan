@@ -60,7 +60,7 @@ productivity <- function(expData, gdpData,
 
   if (is.data.frame(expData)) {
     expData <- expData %>%
-      select(econ, prod, exp) %>%
+      select(all_of(c(econ, prod, exp))) %>%
       spread(prod, exp, fill = 0) %>%
       column_to_rownames(var = econ) %>%
       as.matrix.data.frame()
