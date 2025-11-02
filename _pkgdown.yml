@@ -1,14 +1,14 @@
 home:
-  title: ProductSpace
-  description: Analysis and Visualization of Product Space
+  title: pecan
+  description: Portfolio for Economic Complexity Analysis and Navigation
 
-url: https://github.com/Carol-seven/ProductSpace
+url: https://github.com/Carol-seven/pecan
 
 template:
   bootstrap: 5
   opengraph:
     image:
-      src: https://github.com/Carol-seven/ProductSpace/blob/main/man/figure/logo.png
+      src: https://github.com/Carol-seven/pecan/blob/main/man/figure/logo.png
 
 authors:
   Shiying Xiao:
