@@ -8,7 +8,9 @@ template:
   bootstrap: 5
   opengraph:
     image:
-      src: https://github.com/Carol-seven/pecan/blob/main/man/figure/logo.png
+      src: https://github.com/Carol-seven/pecan/blob/main/pkgdown/logo.png
+  params:
+    logo: null
 
 authors:
   Shiying Xiao:
