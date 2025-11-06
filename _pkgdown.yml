@@ -8,7 +8,7 @@ template:
   bootstrap: 5
   opengraph:
     image:
-      src: https://github.com/Carol-seven/pecan/blob/main/pkgdown/logo.png
+      src: https://github.com/Carol-seven/pecan/blob/main/man/figures/logo.png
   params:
     logo: null
 

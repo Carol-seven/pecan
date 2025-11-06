@@ -1,4 +1,4 @@
-# pecan <img src="pkgdown/logo.png" align="right" alt="" width="150">
+# pecan <img src="man/figures/logo.png" align="right" alt="" width="150">
 
 
 ## Portfolio for Economic Complexity Analysis and Navigation
