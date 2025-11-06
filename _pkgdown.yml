@@ -2,13 +2,15 @@ home:
   title: pecan
   description: Portfolio for Economic Complexity Analysis and Navigation
 
-url: https://github.com/Carol-seven/pecan
+url: https://shiying-xiao.com/pecan
 
 template:
+  assets:
+    - pkgdown/readme-logo.png
   bootstrap: 5
   opengraph:
     image:
-      src: https://github.com/Carol-seven/pecan/blob/main/man/figures/logo.png
+      src: https://raw.githubusercontent.com/Carol-seven/pecan/main/pkgdown/readme-logo.png
   params:
     logo: null
 
