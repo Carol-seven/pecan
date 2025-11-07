@@ -5,14 +5,10 @@ home:
 url: https://shiying-xiao.com/pecan
 
 template:
-  assets:
-    - pkgdown/readme-logo.png
   bootstrap: 5
   opengraph:
     image:
-      src: https://raw.githubusercontent.com/Carol-seven/pecan/main/pkgdown/readme-logo.png
-  params:
-    logo: null
+      src: https://raw.githubusercontent.com/Carol-seven/pecan/main/man/figures/logo.png
 
 authors:
   Shiying Xiao:
