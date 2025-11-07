@@ -5,6 +5,8 @@ home:
 url: https://shiying-xiao.com/pecan
 
 template:
+  assets:
+    - pkgdown/extra.css
   bootstrap: 5
   opengraph:
     image:
