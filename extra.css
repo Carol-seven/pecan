@@ -7,7 +7,7 @@ body {
   justify-content: center;
 }
 
-body.home header.page-header img.logo {
+body.home .page-header img.logo {
   width: 150px !important;
   height: auto !important;
   max-width: none !important;
