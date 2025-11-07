@@ -7,12 +7,6 @@ body {
   justify-content: center;
 }
 
-body.home .page-header img.logo {
-  width: 150px !important;
-  height: auto !important;
-  max-width: none !important;
-}
-
 .container {
   max-width: 85%;
 }
