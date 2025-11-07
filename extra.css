@@ -7,10 +7,10 @@ body {
   justify-content: center;
 }
 
-body.home .navbar-brand img {
-  max-height: none !important;
-  height: 150px !important;
-  width: auto !important;
+body.home header.page-header img.logo {
+  width: 150px !important;
+  height: auto !important;
+  max-width: none !important;
 }
 
 .container {
