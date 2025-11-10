@@ -4,6 +4,7 @@
 ## Portfolio for Economic Complexity Analysis and Navigation
 
 
+[![CRAN Status Badge](https://www.r-pkg.org/badges/version/pecan)](https://CRAN.R-project.org/package=pecan)
 [![GitHub R package version](https://img.shields.io/github/r-package/v/Carol-seven/pecan?label=R%20in%20dev&color=green)](https://github.com/Carol-seven/pecan/blob/main/DESCRIPTION)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Carol-seven/pecan)](https://github.com/Carol-seven/pecan/commits/main)
 [![R-CMD-check](https://github.com/Carol-seven/pecan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Carol-seven/pecan/actions/workflows/R-CMD-check.yaml)
